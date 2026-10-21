@@ -123,8 +123,9 @@ section.soft { background: var(--bg-soft); }
 .legal { padding: 56px 0 0; }
 .legal h1 { font-size: 34px; }
 .legal h2 { font-size: 22px; margin-top: 2em; }
-.legal ol { padding-left: 1.4em; }
-.legal ol li { margin-bottom: .6em; }
+.legal ol, .legal ul { padding-left: 1.4em; }
+.legal ol li, .legal ul li { margin-bottom: .6em; }
+.legal h3 { font-size: 18px; margin-top: 1.5em; }
 .legal .meta { color: var(--ink-soft); font-size: 15px; margin-bottom: 2.5em; }
 .legal .apps { background: var(--bg-soft); border-left: 4px solid var(--brand);
   padding: 16px 20px; border-radius: 0 8px 8px 0; font-size: 16px; }

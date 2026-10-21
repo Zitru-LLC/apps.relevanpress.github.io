@@ -10,6 +10,8 @@ hot-gossip.html   com.saucy.hotgossip
 techly-news.html  com.relevanpress.techly
 atomo-news.html   com.relevanpress.atomo
 anynews.html      com.relevanpress.anynews  (unreleased — see below)
+zipzap.html       com.zitru.zipzap
+orbit.html        com.zitru.orbit   (Play internal / iOS not submitted yet)
 terms.html        shared, all apps
 privacy.html      shared, all apps
 style.css         one stylesheet; each app page sets --brand / --brand-dark inline
@@ -28,6 +30,7 @@ Preview locally: `python3 -m http.server 8000`
 - **Store badges** are plain CSS buttons — Google and Apple no longer allow
   hotlinking their badge images. Swap in the official artwork if brand compliance
   is needed.
+- **Privacy policy** rewritten 2026-09-17 to cover what the apps actually do: Firebase Analytics/Crashlytics/Remote Config, AdMob + mediation, store purchases, UMP/ATT choices, and the news apps' anonymous usage events sent to the news backend. Nothing personal is stored on Zitru servers; keep it that way or update the page.
 - **Legal copy** is carried over from `atomo.relevanpress.com/news/tos/`, generalised
   from one app to all four and re-attributed to Zitru LLC. The "laws of Europe"
   governing-law clause is verbatim from the original and worth a lawyer's look.
